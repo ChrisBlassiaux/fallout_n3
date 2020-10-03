@@ -125,7 +125,6 @@ h1::after {
 .presentation {
   margin-top: 15px;
   padding-top: 75px;
-  width: 100%;
 
   font-weight: 300;
   font-style: italic;
@@ -139,7 +138,7 @@ h1::after {
   max-width: 100%;
 }
 
-.content-introduction {
+.content-presentation {
   line-height: 1.35em;
 }
 
@@ -161,11 +160,12 @@ li {
   font-size: .6em;
 }
 
+/* footer */
 footer {
   height: 250px;
   margin-top: 180px;
 
-  background-color: rgb(26, 26, 26);
+  background: linear-gradient(rgb(32, 32, 32), rgb(19, 19, 19));;
 }
 
 .container-footer {
@@ -187,7 +187,6 @@ footer {
 }
 
 .fallout-icon {
-  height: 210px;
   width: 210px;
 
   position: absolute;
@@ -197,9 +196,25 @@ footer {
   font-family: 'Roboto', sans-serif;
 }
 
+.contain-fallout-icon-text {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%
+}
+
 .fallout-icon-text {
   position: absolute;
-  
+  top: 50px;
+  left: 30px;
+
+  font-size: .6em;
+  color: rgb(26, 26, 26);
 }
 
 @media only screen and (min-width: 700px) {
@@ -243,5 +258,10 @@ footer {
 
   .li-margin {
     margin-left: 50px;
+  }
+
+  .good-job {
+    position: relative;
+    top: -95px;
   }
 }
