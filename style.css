@@ -210,11 +210,12 @@ footer {
 
 .fallout-icon-text {
   position: absolute;
-  top: 50px;
-  left: 30px;
+  top: 52px;
+  left: 29px;
 
-  font-size: .6em;
+  font-size: .55em;
   color: rgb(26, 26, 26);
+  font-family: 'Kaushan Script', cursive;
 }
 
 @media only screen and (min-width: 700px) {
