@@ -205,7 +205,7 @@ footer {
   top: 0;
   left: 0;
 
-  width: 100%
+  width: 100%;
 }
 
 .fallout-icon-text {
@@ -215,6 +215,9 @@ footer {
 
   font-size: .55em;
   color: rgb(26, 26, 26);
+}
+
+.good-job {
   font-family: 'Kaushan Script', cursive;
 }
 
